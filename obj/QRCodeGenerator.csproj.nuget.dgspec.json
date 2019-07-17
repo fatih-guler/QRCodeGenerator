@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dev-fatih/NET-Core/QRCodeGenerator/QRCodeGenerator.csproj": {}
+  },
+  "projects": {
+    "/home/dev-fatih/NET-Core/QRCodeGenerator/QRCodeGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dev-fatih/NET-Core/QRCodeGenerator/QRCodeGenerator.csproj",
+        "projectName": "QRCodeGenerator",
+        "projectPath": "/home/dev-fatih/NET-Core/QRCodeGenerator/QRCodeGenerator.csproj",
+        "packagesPath": "/home/dev-fatih/.nuget/packages/",
+        "outputPath": "/home/dev-fatih/NET-Core/QRCodeGenerator/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/dev-fatih/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.3.6, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
